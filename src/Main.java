@@ -9,6 +9,7 @@ public class Main {
 
         double kdvOrani = (tutar > 1000) ? 0.08 : 0.18;
         double kdvliFiyat = (tutar * kdvOrani) + tutar;
+        System.out.println("KDV Orani: " + kdvOrani);
         System.out.println("KDV Tutarı: " + (tutar * kdvOrani));
         System.out.println("KDV'li Fiyat: " + kdvliFiyat);
     }
